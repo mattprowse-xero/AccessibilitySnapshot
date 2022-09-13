@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'AccessibilitySnapshot'
-  s.version          = '0.5.1'
+  s.version          = '0.5.3'
   s.summary          = 'Easy regression testing for iOS accessibility'
 
   s.homepage         = 'https://github.com/CashApp/AccessibilitySnapshot'
   s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.authors          = 'Square'
-  s.source           = { :git => 'https://github.com/CashApp/AccessibilitySnapshot.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mattprowse-xero/AccessibilitySnapshot.git', :tag => s.version.to_s }
 
   s.swift_version = '5.0.1'
 
